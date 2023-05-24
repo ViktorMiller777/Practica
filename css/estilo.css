@@ -1,0 +1,28 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.flex-container div
+{
+    background-color: rgb(155, 153, 153);
+    color: black;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 50px;
+    border: 2px solid red;
+    border-radius: 4px;
+}
